@@ -63,12 +63,8 @@
 }
 
 .contacts__address--margin {
-  color: $grey;
-  font-size: 14px;
-  line-height: 20px;
-  margin: 0 auto;
-  display: block;
-  width: 167px;
+  @extend .contacts__address;
+  text-align: left;
 }
 
 .contacts__icon-address {
