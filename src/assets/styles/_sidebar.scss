@@ -1,0 +1,91 @@
+.logo {
+  margin-bottom: 25px;
+}
+
+.logo img {
+  display: block;
+}
+
+.order-call {
+  background-color: #f4f6f9;
+  margin-bottom: 15px;
+}
+
+.order-call__titel {
+  text-align: center;
+  color: $grey;
+  font-size: 25px;
+  line-height: 25px;
+  margin: 0;
+}
+
+.image-grope {
+  margin-bottom: 30px;
+}
+
+.image-grope__list {
+  list-style: none;
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+  li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    &:nth-child(3n+1) {
+      margin-left: 0;
+    }
+  }
+  img {
+    display: block;
+
+  }
+}
+
+.contacts {
+  background-color: #f4f6f9;
+
+}
+.contacts__wrapper{
+  padding-top: 14px;
+  padding-bottom: 16px;
+  position: relative;
+}
+
+.contacts__address {
+  color: $grey;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 auto;
+  display: block;
+  width: 167px;
+  text-align: center;
+}
+
+.contacts__address--margin {
+  color: $grey;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 auto;
+  display: block;
+  width: 167px;
+}
+
+.contacts__icon-address {
+  position: absolute;
+  font-size: 0;
+  height: 22px;
+  left: 10px;
+  width: 16px;
+  background: url("../img/design/icon_address.png") no-repeat;
+}
+
+.contacts__icon-phone {
+  display: inline-block;
+  font-size: 0;
+  height: 22px;
+  width: 16px;
+  background: url("../img/design/icon_phone.png") no-repeat;
+  position: absolute;
+  left: 33px
+}

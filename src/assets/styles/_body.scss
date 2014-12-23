@@ -1,0 +1,49 @@
+//---color----
+$grey:rgb(92, 123, 152);
+$blue:rgb(0, 185, 254);
+$light-grey:rgb(218, 225, 235);
+$purpur:rgb(97, 57, 147);
+//-----------------------------
+
+
+.mainecontainer{
+  padding-top: 37px;
+}
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+.content__left{
+  float: left;
+}
+.content__right{
+  float: right;
+}
+.sidebar{
+  max-width: 230px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//clearfix
+.clearfix {
+&:before,
+&:after {
+  content: " ";
+  display: table;
+}
+&:after {
+  clear: both;
+}
+}
