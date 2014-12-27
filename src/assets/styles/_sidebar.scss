@@ -11,12 +11,82 @@
   margin-bottom: 15px;
 }
 
+.order-call-wrapper {
+  padding: 15px 10px;
+}
+
 .order-call__titel {
-  text-align: center;
+//  text-align: center;
   color: $grey;
   font-size: 25px;
   line-height: 25px;
   margin: 0;
+  margin-bottom: 16px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  label {
+    font-size: 14px;
+    color: $grey;
+    float: left;
+    vertical-align: middle;
+    padding-top: 8px;
+
+  }
+  input {
+    float: right;
+    width: 120px;
+    font-size: 12px;
+    color: #dae1eb;
+    padding: 8px 5px;
+    border: solid 1px #dae1eb;
+    height: 9px;
+  }
+  select {
+    float: right;
+    width: 50px;
+  }
+  textarea{
+    height: 47px;
+    width: 207-20px;
+    border:solid 1px #dae1eb;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 10px;
+    resize: none;
+  }
+
+}
+.btn{
+  display: inline-block;
+//  padding: 6px 12px;
+  margin-bottom: 0;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.btn-default{
+  height: 35px;
+  width: 90px;
+  background-color: $blue ;
+}
+.btn-submit{
+  height: 35px;
+  width: 90px;
+  background-color: #dae1eb;
+  float: right;
 }
 
 .image-grope {
@@ -28,6 +98,7 @@
   font-size: 0;
   padding: 0;
   margin: 0;
+  margin-bottom: -15px;
   li {
     display: inline-block;
     margin-left: 10px;
@@ -35,6 +106,7 @@
     &:nth-child(3n+1) {
       margin-left: 0;
     }
+
   }
   img {
     display: block;
@@ -46,8 +118,9 @@
   background-color: #f4f6f9;
 
 }
-.contacts__wrapper{
-  padding-top: 14px;
+
+.contacts__wrapper {
+  padding-top: 19px;
   padding-bottom: 16px;
   position: relative;
 }
@@ -56,22 +129,26 @@
   color: $grey;
   font-size: 14px;
   line-height: 20px;
-  margin: 0 auto;
+  margin: 0;
+  margin-left: 41px;
   display: block;
   width: 167px;
-  text-align: center;
+&:last-child{
+  margin-left: 64px;
+}
 }
 
 .contacts__address--margin {
   @extend .contacts__address;
   text-align: left;
+  margin-bottom: 13px;
 }
 
 .contacts__icon-address {
   position: absolute;
   font-size: 0;
   height: 22px;
-  left: 10px;
+  left: 23px;
   width: 16px;
   background: url("../img/design/icon_address.png") no-repeat;
 }
@@ -83,5 +160,5 @@
   width: 16px;
   background: url("../img/design/icon_phone.png") no-repeat;
   position: absolute;
-  left: 33px
+  left: 42px;
 }

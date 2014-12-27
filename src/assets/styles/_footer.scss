@@ -22,6 +22,7 @@ ul {
   width: 139px;
   height: 39px;
   margin-left: 100px;
+  margin-top: 36px;
   background: url("../img/design/footer_logo.png") center no-repeat;
   display: inline-block;
   float: left;
@@ -41,7 +42,7 @@ ul {
     font-family: "elektra_light_proregular", "Fira Sans", sans-serif;
     font-weight: 700;
     font-size: 15px;
-    margin-bottom: 15px;
+
 
   }
 
@@ -63,7 +64,7 @@ ul {
 .footer__social {
   display: inline-block;
   margin-top: 9px;
-  margin-left: 124px;
+  margin-left: 111px;
 }
 
 .footer__market-appstore {
@@ -81,6 +82,7 @@ ul {
   width: 90px;
   height: 32px;
   display: inline-block;
+  margin-left: 5px;
 
   img {
     display: block;
