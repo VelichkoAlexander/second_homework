@@ -656,6 +656,26 @@ a {
   .has_error input {
     border-color: red !important; }
 
+.wrap_select {
+  width: 52px;
+  height: 24px;
+  overflow: hidden;
+  background: url("../img/design/arow.png") no-repeat right #ffffff;
+  /* border: 1px solid #ccc; */
+  /* display: inline-block; */
+  float: right; }
+  .wrap_select select {
+    background: transparent;
+    width: 53px;
+    /* line-height: 1; */
+    border: 0;
+    /* border-radius: 0; */
+    height: 27px;
+    -webkit-appearance: none; }
+
+.correct {
+  margin-right: 9px; }
+
 .slider {
   margin-bottom: 36px; }
 
