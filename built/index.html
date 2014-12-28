@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ЭпплShop</title>
+    <link rel="icon" type="img/png" href="img/design/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="img/png" href="img/design/favicon-16x16.png" sizes="16x16" />
+    <script src="js/modernizr.custom.10215.js"></script>
     <link rel="stylesheet" href="css/style.css"/>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,16 +32,18 @@
                                 <div class="form-group clearfix">
                                     <label for="name">Ваше имя</label>
                                     <input type="text" class="form-control" id="name" placeholder="Введите ваше имя">
+
                                 </div>
                                 <div class="form-group clearfix">
                                     <label for="phone">Телефон</label>
-                                    <input type="password" class="form-control" id="phone"
+                                    <input type="phone" class="form-control" id="phone"
                                            placeholder="Введите ваш телефон">
                                 </div>
                                 <div class="form-group clearfix">
                                     <label for="day">Дата звонка</label>
+
                                     <div class="wrap_select">
-                                    <select id="month">
+                                        <select id="month">
 
                                             <option value="1">1</option>
                                             <option value="2">2</option>
@@ -53,28 +58,16 @@
                                             <option value="11">11</option>
                                             <option value="12">12</option>
 
-                                    </select>
-                                        </div>
+                                        </select>
+                                    </div>
                                     <div class="wrap_select">
-                                    <select id="day">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                        <option value="7">7</option>
-                                        <option value="8">8</option>
-                                        <option value="9">9</option>
-                                        <option value="10">10</option>
-                                        <option value="11">11</option>
-                                        <option value="12">12</option>
-                                    </select>
+                                        <select id="day">
+
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <!--<label for="textar">Телефон</label>-->
-                                    <textarea name="" id="textar" placeholder="Коментарий"></textarea>
+                                                                    <textarea name="" id="textar" placeholder="Коментарий"></textarea>
                                 </div>
 
                                 <button type="submit" class="btn btn-default">Отправить</button>
@@ -103,9 +96,9 @@
                             <p class="contacts__address--margin">
                                 офис 214.</p>
 
-                            <p class="contacts__address">
+                            <a class="contacts__address" href="tel:+79213221232">
                                 <span class="contacts__icon-phone"></span>
-                                +7(921) 322-12-32</p>
+                                +7(921) 322-12-32</a>
                         </div>
 
 
@@ -143,8 +136,8 @@
                         </ul>
                     </div>
                     <!--<div class="slider__controls">-->
-                        <a class="slider__controls-button slider__control-button_next" href="">След.</a>
-                        <a class="slider__controls-button slider__control-button_prev" href="">Пред.</a>
+                    <a class="slider__controls-button slider__control-button_next" href="">След.</a>
+                    <a class="slider__controls-button slider__control-button_prev" href="">Пред.</a>
                     <!--</div>-->
                 </div>
                 <div class="items">
@@ -159,7 +152,7 @@
                                 </div>
 
                                 <div class="items__list-item-title">
-                                    <a href="">Apple Thunderb Display 27"</a>
+                                    <a href="">Apple Thunderb Display 27" </a>
                                 </div>
                             </div>
 
@@ -432,6 +425,8 @@
     <script src="js/jquery-1.11.2.js"></script>
     <script src="js/date.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/tooltip.js"></script>
+    <script src="js/main.js"></script>
 </div>
 
 </body>

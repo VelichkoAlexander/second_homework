@@ -12,6 +12,7 @@ $purpur:rgb(97, 57, 147);
 .container{
   width: 1000px;
   margin: 0 auto;
+  margin-bottom: 28px;
 }
 .content__left{
   float: left;
@@ -20,12 +21,12 @@ $purpur:rgb(97, 57, 147);
   float: right;
 }
 .sidebar{
-  max-width: 230px;
+  width: 230px;
 }
 
 a{
   color: $blue;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
   text-decoration: underline;
 }

@@ -1,5 +1,9 @@
 .slider {
   position: relative;
+  margin-bottom: 41px;
+  a{
+    font-size: 18px;
+  }
 
 }
 
@@ -23,14 +27,13 @@
 
 .slider__controls-button {
   position: absolute;
-  top: 130px;
+  top: 102px;
   font-weight: 700;
   font-size: 17px;
   color: $grey;
   display: block;
-//  width: 69px;
   background-color: #ffffff;
-  padding: 10px;
+  padding: 6px;
   text-decoration: none
 ;
 
@@ -38,12 +41,12 @@
 
 
 .slider__control-button_next {
-  right: 30px;
+  right: 22px;
   &:after {
     content: '';
     top: 0px;
-    left: 63px;
-    border: 21px solid transparent;
+    left: 58px;
+    border: 17px solid transparent;
     border-left: 14px solid #ffffff;
     position: absolute;
   }
@@ -59,12 +62,12 @@
 }
 
 .slider__control-button_prev {
-  left: 30px;
+  left: 18px;
   &:after {
     content: '';
     top: 0px;
-    right: 65px;
-    border: 21px solid transparent;
+    right: 60px;
+    border: 17px solid transparent;
     border-right: 14px solid #ffffff;
     position: absolute;
   }
@@ -87,16 +90,16 @@
   width: 100%;
   a {
     display: block;
-    padding-left: 24px;
-    padding-top: 19px;
-    margin-bottom: 10px;
+    padding-left: 28px;
+    padding-top: 13px;
+    margin-bottom: 5px;
     min-width: 100px;
   }
   span {
     display: block;
-    padding-left: 24px;
+    padding-left: 27px;
     color: #ffffff;
     font-weight: 400;
-    margin-bottom: 19px;
+    margin-bottom: 21px;
   }
 }

@@ -1,10 +1,7 @@
 $(document).ready(function () {
     dateObj = new Date();
     dateObj = dateObj.getFullYear();
-
-
     var place = $('#day');
-    console.log(place);
     $('#month').click(function () {
         var pik = $(this).val();
              if ((pik == 1 || pik == 3 || pik == 5 || pik == 7 || pik == 8 || pik == 10 || pik == 12) == true) {
