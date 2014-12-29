@@ -24,9 +24,7 @@
             if (app.validateForm(form) === false) return false;
             submitBtn.attr('disabled', 'disabled');
             form.find('.alert').remove();
-console.log(form);
             var str = form.serialize();
-            console.log(str);
             $.ajax({
                 url: 'sent_mail/mail.php',
                 type: 'POST',
@@ -35,14 +33,18 @@ console.log(form);
 
                 .done(function (msg) {
                     if (msg === "OK") {
-                        console.log("result");
+                        console.log(msg);
                         var result = '<div class="alert alert-success" role="alert">Спасибо за заявку! Мы с вами свяжемся!</div>'
-                        form.find('.order-call-wrapper').before(result);
+                        form.find('.msg').html(result);
+                        console.log(form.find('.msg'));
+
 
 
                     } else {
+                        console.log(msg);
                         result = '<div class="alert alert-danger" role="alert">' + msg + '</div>';
-                        form.find('.clearfix').before(result);
+                        form.find('.msg').html(result);
+
 
 
                     }
