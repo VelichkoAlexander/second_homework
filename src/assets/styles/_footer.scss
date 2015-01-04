@@ -5,10 +5,11 @@ ul {
 }
 
 .footer__wrapper {
-  background: url("../img/design/pattern.png") $purpur;
+  background: url("../img/design/pattern.png")0 0  $purpur;
   padding-top: 62px;
   padding-bottom: 60px;
-}
+  min-width: 1200px;
+  }
 
 .footer__container {
   width: 1200px;
@@ -68,7 +69,7 @@ ul {
 }
 
 .footer__market-appstore {
-  background: url("../img/design/Appstore.png") no-repeat;
+  background: url("../img/design/Appstore.png")  no-repeat;
   width: 90px;
   height: 32px;
   display: inline-block;
@@ -86,7 +87,7 @@ ul {
 
   img {
     display: block;
-  }
+    }
 }
 
 .footer__market {

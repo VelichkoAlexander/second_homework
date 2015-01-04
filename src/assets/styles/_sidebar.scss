@@ -102,20 +102,17 @@
   padding: 0;
   margin: 0;
   margin-bottom: -15px;
-  li {
-    display: inline-block;
+  margin-left: -10px;
+}
+  .image-grope__item{
+    float: left;
     margin-left: 10px;
     margin-bottom: 10px;
-    &:nth-child(3n+1) {
-      margin-left: 0;
+    img {
+      display: block;
+
     }
-
   }
-  img {
-    display: block;
-
-  }
-}
 
 .contacts {
   background-color: #f4f6f9;
@@ -285,23 +282,19 @@
 input{
   border-color:  red!important;
 }
+
 }
 .wrap_select{
-
   width: 52px;
   height: 24px;
   overflow: hidden;
   background: url("../img/design/arow.png") no-repeat right #ffffff;
-  /* border: 1px solid #ccc; */
-  /* display: inline-block; */
   float: right;
 
   select {
     background: transparent;
     width: 53px;
-    /* line-height: 1; */
     border: 0;
-    /* border-radius: 0; */
     height: 27px;
     -webkit-appearance: none;
 }

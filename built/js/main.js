@@ -11,7 +11,11 @@
         setUpListeners: function () {
             $('form').on('submit', app.submitForm);
             $('form').on('keydown', 'input', app.removeError);
-            $('form').on('reset', app.clearFeedback);
+            //for inputmask.js
+            $("#phone").inputmask("+7(999) 999 - 99 - 99");
+            //for plaseholder.js
+            $('#name, textarea').placeholder();
+            //$('form').on('reset', app.clearFeedback);
 
 
         },
@@ -39,12 +43,10 @@
                         console.log(form.find('.msg'));
 
 
-
                     } else {
                         console.log(msg);
                         result = '<div class="alert alert-danger" role="alert">' + msg + '</div>';
                         form.find('.msg').html(result);
-
 
 
                     }
@@ -56,7 +58,7 @@
         },
         validateForm: function () {
             var inputs = form.find('input');
-            valid = true;
+            var valid = true;
 
             inputs.tooltip('destroy');
 
